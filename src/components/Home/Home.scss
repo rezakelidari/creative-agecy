@@ -1,0 +1,15 @@
+#home {
+  min-height: 90vh;
+  background: center / cover no-repeat
+      linear-gradient(rgba(12, 36, 90, 0.541), rgba(17, 36, 90, 0.534)),
+    url("../../assets/img/hero_img.jpg") fixed;
+
+  & h1 {
+    color: #ffffff;
+  }
+
+  & p {
+    min-width: 550px;
+    margin: 12px auto;
+  }
+}

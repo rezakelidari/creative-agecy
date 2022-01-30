@@ -1,12 +1,14 @@
 import React from "react";
 import "./Home.scss";
 
+import { Col, Container, Row } from "react-bootstrap";
+
 export default function Home() {
   return (
     <section id="home" className="d-flex align-items-center">
-      <div className="container text-center">
-        <div className="row justify-content-center">
-          <div className="col-md-10 text-white">
+      <Container className="text-center">
+        <Row className="justify-content-center">
+          <Col md="10" className="text-white">
             <h1 className="display-4">
               WE ARE CREATIVE AGENCY, CREATIVE PEOPLE
             </h1>
@@ -18,9 +20,9 @@ export default function Home() {
             <a href="#contact" className="btn btn-brand">
               Contact
             </a>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </section>
   );
 }

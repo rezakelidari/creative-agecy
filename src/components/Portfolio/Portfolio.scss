@@ -1,0 +1,30 @@
+.portfolio {
+  position: relative;
+  overflow: hidden;
+
+  & .portfolio-overlay {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: grid;
+    place-content: end left;
+    padding: 0 0 0 1rem;
+    background: rgba(17, 36, 90, 0.8);
+    opacity: 0;
+    transition: 0.3s ease all;
+  }
+
+  &:hover .portfolio-overlay {
+    opacity: 1;
+  }
+
+  & .portfolio-image {
+    transition: 0.3s ease all;
+  }
+
+  &:hover .portfolio-image {
+    transform: scale(1.2);
+  }
+}

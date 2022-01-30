@@ -44,4 +44,20 @@ body {
       background-color: #ce2f6e;
     }
   }
+
+  & .section-intro {
+    text-align: center;
+
+    & .hline {
+      width: 70px;
+      height: 2px;
+      background-color: red;
+      margin: 16px auto 0 auto;
+    }
+  }
+
+  & .title-sm {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
 }

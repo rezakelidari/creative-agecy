@@ -1,6 +1,13 @@
 .navbar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
+  & .logo-text {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #11245a;
+    font-weight: 700;
+  }
+
   & .nav-link {
     text-transform: uppercase;
     letter-spacing: 1px;

@@ -5,8 +5,10 @@ import { Nav, Navbar } from "react-bootstrap";
 
 export default function TopNavbar() {
   return (
-    <Navbar bg="light" expand="md" className="px-3">
-      <Navbar.Brand href="#">Creative Agency</Navbar.Brand>
+    <Navbar bg="light" expand="md" className="px-3" sticky="top">
+      <Navbar.Brand className="logo-text" href="#">
+        Creative Agency
+      </Navbar.Brand>
       <Navbar.Toggle />
       <Navbar.Collapse>
         <Nav className="ms-auto">

@@ -5,7 +5,7 @@ import { Nav, Navbar } from "react-bootstrap";
 
 export default function TopNavbar() {
   return (
-    <Navbar bg="light" expand="md" className="px-3" sticky="top">
+    <Navbar bg="light" expand="md" className="px-3" fixed="top">
       <Navbar.Brand className="logo-text" href="#">
         Creative Agency
       </Navbar.Brand>

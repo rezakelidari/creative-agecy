@@ -27,7 +27,7 @@ export default function Portfolio() {
           <h1>Our Portfoio</h1>
           <div className="hline"></div>
         </div>
-        <Row className="justify-content-center mt-5">
+        <Row className="justify-content-center">
           {projects.map((item) => (
             <Col lg={3} md={4} sm={6} xs={12} className="portfolio px-0">
               <img

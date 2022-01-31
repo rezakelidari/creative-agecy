@@ -1,5 +1,4 @@
 import React from "react";
-import "./Services.scss";
 
 import { Col, Container, Row } from "react-bootstrap";
 
@@ -11,7 +10,7 @@ export default function Services() {
           <h1>Our Services</h1>
           <div className="hline"></div>
         </div>
-        <Row className="mt-5 gap-3 justify-content-center">
+        <Row className="gap-3 justify-content-center">
           <Col lg={3} sm={5} xs={12} className="shadow p-2 pb-0 border rounded">
             <div className="icon-box">
               <i class="bi bi-file-earmark-image"></i>

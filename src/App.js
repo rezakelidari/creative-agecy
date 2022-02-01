@@ -5,6 +5,7 @@ import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import Features from "./components/Features";
 import Team from "./components/Team";
+import Testimonials from "./components/Testimonials";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Portfolio />
       <Features />
       <Team />
+      <Testimonials />
     </>
   );
 }

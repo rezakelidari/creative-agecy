@@ -1,5 +1,4 @@
 import React from "react";
-import "./Features.scss";
 
 import { Col, Container, Row } from "react-bootstrap";
 

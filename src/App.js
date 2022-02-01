@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio";
 import Features from "./components/Features";
 import Team from "./components/Team";
 import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Features />
       <Team />
       <Testimonials />
+      <Contact />
     </>
   );
 }

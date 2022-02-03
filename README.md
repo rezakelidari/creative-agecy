@@ -7,7 +7,7 @@
     <img src="https://user-images.githubusercontent.com/62962597/152167866-67313c6a-31c7-43a4-96f6-5767372ee64c.png" alt="Logo" width="480" height="324">
   </a>
 
-<h1 align="center">FrontEnd Bootcamp</h1>
+<h1 align="center">Creative Agency</h1>
   <p align="center">
     A simple project for a creavive agency site implemented with React.js, Bootstrap v5, Bootstrap Icons and React Bootstrap
     <br />
